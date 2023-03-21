@@ -1,0 +1,80 @@
+body{
+    background-color: rgb(35, 42, 39);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: black;
+}
+h1{
+    font-size: 2.5rem;
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+}
+
+table{
+    width: 80%;
+    margin: 40px auto;
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+}
+
+table.list{
+    text-align: center;
+    width: 100%;
+}
+
+td{
+    border: 1px solid rgb(90, 88, 88);
+    text-align: left;
+    padding: 8px 15px;
+}
+
+tr:nth-child(even), table.list thread> tr{
+    background-color: rgb(204,200,200);
+}
+
+input[type="text"],input[type="number"]{
+    width:91%;
+    padding:12px 20px;
+    margin:8px 0;
+    display: inline-block;
+    border: 1px solid rgb(165,161,161);
+    border-radius: 4px;
+}
+
+input[type="submit"],input[type="reset"]{
+    background: rgb(43, 192, 135);
+    padding:6px 12px;
+    margin:15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+input[type="submit"]:hover{
+    background: rgb(11, 112, 73);
+}
+
+input[type="reset"]:hover{
+    background: rgb(11, 112, 73);
+}
+
+button{
+    background: rgb(43, 192, 135);
+    padding:6px 12px;
+    margin:15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover{
+    background: rgb(11, 112, 73); ;
+}
